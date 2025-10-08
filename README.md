@@ -13,6 +13,20 @@
 
 ## 🎯 Welcome to Universal Code Playground!
 
+<details>
+<summary>🧭 Table of Contents</summary>
+
+- [💻 The Universal Code Playground | Hacktoberfest 2025 🎉](#-the-universal-code-playground--hacktoberfest-2025-)
+  - [🎯 Welcome to Universal Code Playground!](#-welcome-to-universal-code-playground)
+    - [🌟 Our Vision: Code Without Limits](#-our-vision-code-without-limits)
+    - [🚀 Why Contribute? (Zero Friction Policy)](#-why-contribute-zero-friction-policy)
+  - [👉 How to Contribute in 3 Steps](#-how-to-contribute-in-3-steps)
+  - [📂 Repository Structure (Concept First)](#-repository-structure-concept-first)
+  - [⭐ Why Star This Repository?](#-why-star-this-repository)
+  - [🚀 Getting Started](#-getting-started)
+
+</details>
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### 🌟 Our Vision: Code Without Limits
