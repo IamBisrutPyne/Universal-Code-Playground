@@ -1,6 +1,9 @@
-# Title: Print Hello World
-# Topic: Basics
-# Language: javascript
-# Example: see bottom
+// Define a simple function to encapsulate the output logic.
+function displayGreeting() {
+    // 'console.log' is the standard method for outputting messages 
+    // to the console in Node.js environments or web browser consoles.
+    console.log("Hello, World!");
+}
 
-// Print Hello World - placeholder in javascript
+// Call the function to execute the output.
+displayGreeting();
