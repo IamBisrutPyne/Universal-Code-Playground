@@ -1,6 +1,5 @@
-# Title: Print Hello World
-# Topic: Basics
-# Language: rust
-# Example: see bottom
-
-// Print Hello World - placeholder in rust
+// Rust Hello, World!
+fn main() {
+    // Print the string "Hello, World!" to the standard output.
+    println!("Hello, World!");
+}
