@@ -1,6 +1,3 @@
-# Title: Print Hello World
-# Topic: Basics
-# Language: ruby
-# Example: see bottom
-
-// Print Hello World - placeholder in ruby
+# Ruby Hello, World!
+# 'puts' is commonly used in Ruby to output data followed by a newline.
+puts "Hello, World!"
