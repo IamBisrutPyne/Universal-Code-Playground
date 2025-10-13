@@ -1,6 +1,3 @@
-# Title: Print Hello World
-# Topic: Basics
-# Language: swift
-# Example: see bottom
-
-// Print Hello World - placeholder in swift
+// Swift Hello, World!
+// 'print' is the standard function for writing output in Swift.
+print("Hello, World!")
