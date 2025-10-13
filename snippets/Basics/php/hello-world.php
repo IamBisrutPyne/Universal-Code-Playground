@@ -1,6 +1,8 @@
-# Title: Print Hello World
-# Topic: Basics
-# Language: php
-# Example: see bottom
+<?php
+// PHP Hello, World!
+// 'echo' is a language construct used to output strings.
 
-// Print Hello World - placeholder in php
+echo "Hello, World!";
+
+// PHP code is typically wrapped in the opening and closing tags.
+?>
