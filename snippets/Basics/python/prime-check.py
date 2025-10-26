@@ -1,15 +1,31 @@
-# Title: Check primality (sqrt method)
-# Topic: Basics
-# Language: python
-# Example: see bottom
+import math
 
-def main(n=10):
-    a,b=0,1
-    out=[]
-    for _ in range(n):
-        out.append(a)
-        a,b=b,a+b
-    return out
+def is_prime(n):
+    # Check if number is less than 2
+    if n < 2:
+        return False
+    
+    # Check if number is 2
+    if n == 2:
+        return True
+    
+    # Check if number is even
+    if n % 2 == 0:
+        return False
+    
+    # Check odd numbers up to square root of n
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
+        if n % i == 0:
+            return False
+    
+    return True
 
-if __name__ == '__main__':
-    print(main(10))
+# Get input from user
+try:
+    num = int(input("Enter a number to check if it's prime: "))
+    if is_prime(num):
+        print(f"{num} is a prime number")
+    else:
+        print(f"{num} is not a prime number")
+except ValueError:
+    print("Please enter a valid integer")
